@@ -23,30 +23,6 @@ Assuming you know where the files go, use ranger to place them into the ~/.confi
 ```
 ```
 ```
-cd android-terminal
-```
-```
-mv ~/.config/wayfire.ini wayfire.ini-original
-```
-```
-mv -i wayfire.ini ~/.config 
-```
-
-
-```
-git clone https://github.com/gnmearacaun/android-terminal.git
-```
-```
-cd rpios-wayfirewm-config
-```
-```
-mv ~/.config/wayfire.ini wayfire.ini-original
-```
-```
-mv -i wayfire.ini ~/.config 
-```
-```
-```
 
 Install the LXQt and LabWC (which we will use to manage the windows)
 ```
@@ -55,7 +31,7 @@ sudo pacman -S lxqt lxqt-config lxqt-policykit lxqt-powermanagement lxqt-wayland
 ```
 sudo apt-get install lxqt labwc
 ```
-Set up a new passwd for the `droid` user
+Set up a new passwd for the `droid` user for logging in to LXQt
 ```
 sudo passwd droid
 ```
