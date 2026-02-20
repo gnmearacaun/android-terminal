@@ -20,13 +20,10 @@ git clone https://github.com/gnmearacaun/android-terminal.git
 ```
 
 Assuming you know where the files go, use ranger to place them into the ~/.config directory.
-```
-```
-```
 
-Install the LXQt and LabWC (which we will use to manage the windows)
+### Install the LXQt and LabWC (which we will use to manage the windows)
 ```
-sudo pacman -S lxqt lxqt-config lxqt-policykit lxqt-powermanagement lxqt-wayland-session labwc labwc-tweaks 
+sudo apt-get install lxqt lxqt-config lxqt-policykit lxqt-powermanagement labwc 
 ```
 ```
 sudo apt-get install lxqt labwc
